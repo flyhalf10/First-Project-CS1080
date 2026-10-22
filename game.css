@@ -1,0 +1,50 @@
+body {
+    background-color:#F5E9E7;
+}
+
+.navbar {
+    display:flex;
+    justify-content:center;
+    margin:0;
+    flex-wrap:wrap;
+}
+
+.navbar a{
+    color: #837D68;
+    font-size:30pt;
+    padding: 10px 150px;
+    text-decoration: none;
+    text-align:center;
+}
+
+.navbar a:hover{
+    background-color: #E9E6E7;
+}
+
+.square {
+    width:150px;
+    height:150px;
+    background-color:teal
+    
+}
+
+.card {
+    width: 100px;
+    height: 140px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card-number {
+    position: absolute;
+    top: 47px;
+    left: 37px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bet_button{
+    background-color: #E9E6E7;
+}

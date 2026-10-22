@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/game.css">
+<title>Play</title>
+</head>
+
+<body>
+    <script>
+        function display_bet() {
+            let bet = document.getElementById("bet_input").value;
+            
+            document.getElementById("output").innerHTML = "you have bet " + bet;
+        }
+    </script>
+
+    <div class="navbar">
+        <a href="index.html">Go Back Home</a>
+    </div>
+
+    <div class = "card"> 
+        <span class = "card-number">7</span>
+    </div>
+    <div class = dealer_cards> </div>
+
+    <div id="output">How much would you like to bet?</div>
+    <input type="text" id="bet_input" placeholder="Your bet...">
+    <button class="bet_button" onclick="display_bet()">Place Bet</button>
+
+    <h1>I still need to implement the blackjack game I wrote in C++</h1>
+
+</body>
+
+</html>
